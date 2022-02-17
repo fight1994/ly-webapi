@@ -2,20 +2,20 @@
 
 #### 介绍
 基于.Net 6实现的WebApi框架。
-IOC运用AutoFac+反射，实现特性注入。避免了构造函数注入的臃肿，更加优雅。
+IOC运用AutoFac+反射，实现特性注入。
+避免了构造函数注入的臃肿，注入更优雅，生命周期控制更灵活。
 
-接口文档：Swagger
-权限认证：JWT
 ORM：SQLSugar
-
-
-
-
-
+接口文档：Swagger
+身份认证：JWT
 
 #### 软件架构
-软件架构说明
-
+-LY.Common
+-LY.IServices
+-LY.Model
+-LY.Repository
+-LY.Services
+-LY.WebApi
 
 #### 安装教程
 
