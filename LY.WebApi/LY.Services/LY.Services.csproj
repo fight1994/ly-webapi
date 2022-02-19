@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="SqlSugarCore" Version="5.0.5.5-preview-01" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\LY.IServices\LY.IServices.csproj" />
+    <ProjectReference Include="..\LY.Model\LY.Model.csproj" />
+    <ProjectReference Include="..\LY.Repository\LY.Repository.csproj" />
+  </ItemGroup>
+
+</Project>
